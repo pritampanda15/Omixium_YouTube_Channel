@@ -1,0 +1,223 @@
+# AutoDock-GPU CUDA Makefile
+
+NVCC = nvcc
+CPP = g++
+UNAME := $(shell uname)
+
+# List of supported compute capabilities
+TARGETS = 50 52 53 60 61 62 70 72 75 80 86 87 89 90
+
+ifeq ($(TENSOR), ON)
+    NVTENSOR=-DUSE_NVTENSOR
+    NVTENSOR+=-I./wmma_extension/include
+    TARGETS = 80
+endif
+
+# Correct syntax for CUDA_TARGETS
+CUDA_TARGETS=$(foreach target,$(TARGETS),-gencode arch=compute_$(target),code=sm_$(target))
+
+ifeq ($(DEVICE), CPU)
+    DEV =-DCPU_DEVICE
+else ifeq ($(DEVICE), GPU)
+    DEV =-DGPU_DEVICE
+endif
+
+# ------------------------------------------------------
+# Project directories
+# opencl_lvs: wrapper for OpenCL APIs
+COMMON_DIR=./common
+HOST_INC_DIR=./host/inc
+HOST_SRC_DIR=./host/src
+KRNL_DIR=./cuda
+KCMN_DIR=$(COMMON_DIR)
+BIN_DIR=./bin
+LIB_CUDA = kernels.o -lcurand -lcudart -DUSE_CUDA
+
+TARGET := autodock
+TOOL_TARGET := adgpu_analysis
+
+IFLAGS=-I$(COMMON_DIR) -I$(HOST_INC_DIR) -I$(GPU_INCLUDE_PATH) -I$(KRNL_DIR)
+LFLAGS=-L$(GPU_LIBRARY_PATH) -Wl,-rpath=$(GPU_LIBRARY_PATH):$(CPU_LIBRARY_PATH) -lstdc++fs
+CFLAGS=-std=c++17 $(IFLAGS) $(LFLAGS)
+TOOL_CFLAGS=-std=c++17 -I$(COMMON_DIR) -I$(HOST_INC_DIR) $(LFLAGS) 
+CFLAGS=-std=c++17 $(IFLAGS) $(LFLAGS)
+
+ifeq ($(DEVICE), CPU)
+	TARGET:=$(TARGET)_cpu
+else ifeq ($(DEVICE), GPU)
+	NWI=-DN64WI
+	TARGET:=$(TARGET)_gpu
+endif
+
+ifeq ($(OVERLAP), ON)
+	PIPELINE=-DUSE_PIPELINE -fopenmp
+endif
+
+BIN := $(wildcard $(TARGET)*)
+
+# ------------------------------------------------------
+# Number of work-items (wi)
+# Valid values: 32, 64, 128, 256
+NUMWI=
+
+ifeq ($(NUMWI), 32)
+ifeq ($(TENSOR), ON)
+$(error NUMWI needs to be at least 64 with TENSOR=ON)
+endif
+	NWI=-DN32WI
+	TARGET:=$(TARGET)_32wi
+else ifeq ($(NUMWI), 64)
+	NWI=-DN64WI
+	TARGET:=$(TARGET)_64wi
+else ifeq ($(NUMWI), 128)
+	NWI=-DN128WI
+	TARGET:=$(TARGET)_128wi
+else ifeq ($(NUMWI), 256)
+		NWI=-DN256WI
+		TARGET:=$(TARGET)_256wi
+else
+	ifeq ($(DEVICE), CPU)
+		NWI=-DN16WI
+		TARGET:=$(TARGET)_16wi
+	else ifeq ($(DEVICE), GPU)
+		NWI=-DN128WI
+		TARGET:=$(TARGET)_128wi
+	endif
+endif
+
+# ------------------------------------------------------
+# Configuration
+# FDEBUG (full) : enables debugging on both host + device
+# LDEBUG (light): enables debugging on host
+# RELEASE
+CONFIG=RELEASE
+#CONFIG=FDEBUG
+
+ifeq ($(CONFIG),FDEBUG)
+	OPT =-O0 -g3 -Wall -DDOCK_DEBUG
+	CUDA_FLAGS = -G -use_fast_math --ptxas-options="-v" $(CUDA_TARGETS) -std=c++11
+else ifeq ($(CONFIG),LDEBUG)
+	OPT =-O0 -g3 -Wall
+	CUDA_FLAGS = -use_fast_math --ptxas-options="-v" $(CUDA_TARGETS) -std=c++11
+else ifeq ($(CONFIG),RELEASE)
+	OPT =-O3
+	CUDA_FLAGS = -use_fast_math --ptxas-options="-v" $(CUDA_TARGETS) -std=c++11
+else
+	OPT =
+	CUDA_FLAGS = -use_fast_math --ptxas-options="-v" $(CUDA_TARGETS) -std=c++11
+endif
+
+# ------------------------------------------------------
+# Reproduce results (remove randomness)
+REPRO=NO
+
+ifeq ($(REPRO),YES)
+	REP =-DREPRO
+else
+	REP =
+endif
+# ------------------------------------------------------
+
+all: otool odock
+
+check-env-dev:
+	@if test -z "$$DEVICE"; then \
+		echo "Please set DEVICE to either CPU, GPU, CUDA, or OCLGPU to build docking software."; \
+		exit 1; \
+	else \
+		if [ "$$DEVICE" = "CPU" ]; then \
+			echo "DEVICE is set to $$DEVICE which is not a valid Cuda device."; \
+			exit 1; \
+		else \
+			if [ "$$DEVICE" = "GPU" ]; then \
+				echo "DEVICE is set to $$DEVICE"; \
+			else \
+				echo "DEVICE value is invalid. Please set DEVICE to either CPU, GPU, CUDA, or OCLGPU"; \
+				exit 1; \
+			fi; \
+		fi; \
+	fi; \
+	echo " "
+
+check-env-cpu:
+	@if test -z "$$CPU_INCLUDE_PATH"; then \
+		echo "CPU_INCLUDE_PATH is undefined"; \
+	else \
+		echo "CPU_INCLUDE_PATH is set to $$CPU_INCLUDE_PATH"; \
+	fi; \
+	if test -z "$$CPU_LIBRARY_PATH"; then \
+		echo "CPU_LIBRARY_PATH is undefined"; \
+	else \
+		echo "CPU_LIBRARY_PATH is set to $$CPU_LIBRARY_PATH"; \
+	fi; \
+	echo " "
+
+check-env-gpu:
+	@if test -z "$$GPU_INCLUDE_PATH"; then \
+		echo "GPU_INCLUDE_PATH is undefined"; \
+	else \
+		echo "GPU_INCLUDE_PATH is set to $$GPU_INCLUDE_PATH"; \
+	fi; \
+	if test -z "$$GPU_LIBRARY_PATH"; then \
+		echo "GPU_LIBRARY_PATH is undefined"; \
+	else \
+		echo "GPU_LIBRARY_PATH is set to $$GPU_LIBRARY_PATH"; \
+	fi; \
+	echo " "
+
+check-env-all: check-env-dev check-env-cpu check-env-gpu
+
+# ------------------------------------------------------
+# Priting out its git version hash
+
+GIT_VERSION := $(shell ./version_string.sh)
+
+CFLAGS+=-DVERSION=\"$(GIT_VERSION)\"
+TOOL_CFLAGS+=-DVERSION=\"$(GIT_VERSION)\"
+
+# ------------------------------------------------------
+
+kernels: $(KERNEL_SRC)
+	$(NVCC) $(NWI) $(REP) $(CUDA_FLAGS) $(IFLAGS) $(CUDA_INCLUDES) $(NVTENSOR) -c $(KRNL_DIR)/kernels.cu
+
+otool:
+	@echo "Building" $(TOOL_TARGET) "..."
+	$(CPP) \
+	$(shell ls $(HOST_SRC_DIR)/*.cpp) \
+	$(TOOL_CFLAGS) \
+	-o$(BIN_DIR)/$(TOOL_TARGET) \
+	$(PIPELINE) $(NVTENSOR) $(OPT) -DTOOLMODE $(REP)
+
+odock: check-env-all kernels
+	@echo "Building" $(TARGET) "..."
+	$(CPP) \
+	$(shell ls $(HOST_SRC_DIR)/*.cpp) \
+	$(CFLAGS) \
+	$(LIB_CUDA) \
+	-o$(BIN_DIR)/$(TARGET) \
+	$(DEV) $(NWI) $(PIPELINE) $(NVTENSOR) $(OPT) $(DD) $(REP) $(KFLAGS)
+
+# Example
+# 1ac8: for testing gradients of translation and rotation genes
+# 7cpa: for testing gradients of torsion genes (15 torsions) 
+# 3tmn: for testing gradients of torsion genes (1 torsion)
+
+PDB      := 3ce3
+NRUN     := 100
+NGEN     := 27000
+POPSIZE  := 150
+TESTNAME := test
+TESTLS   := ad
+
+test: odock
+	$(BIN_DIR)/$(TARGET) \
+	-ffile ./input/$(PDB)/derived/$(PDB)_protein.maps.fld \
+	-lfile ./input/$(PDB)/derived/$(PDB)_ligand.pdbqt \
+	-nrun $(NRUN) \
+	-ngen $(NGEN) \
+	-psize $(POPSIZE) \
+	-resnam $(TESTNAME) \
+	-gfpop 0 \
+	-lsmet $(TESTLS)
+
+.PHONY: clean
