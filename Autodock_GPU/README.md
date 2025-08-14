@@ -359,5 +359,3 @@ This README now **contains everything needed to compile AutoDock-GPU**, includin
 
 ---
 
-If you want, I can also **create a version with clickable code blocks for the GitHub README**, so users can copy/paste commands easily. It will look very clean visually. Do you want me to do that?
-
