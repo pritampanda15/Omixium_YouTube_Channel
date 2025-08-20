@@ -453,12 +453,6 @@ def _(
     print("• Marimo: Reactive notebook environment")
     print("• Scanpy: Single-cell analysis pipeline")
 
-    print("\n For YouTube Tutorial:")
-    print("• Beautiful visualizations for all 55K+ cells")
-    print("• No sampling required - plot everything!")
-    print("• Fast processing with modern Python stack")
-    print("• Publication-ready figures")
-
     # Save final results
     final_results = {
         'n_cells_original': adata_raw.n_obs,
