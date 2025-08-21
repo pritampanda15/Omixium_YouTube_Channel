@@ -1,0 +1,216 @@
+{
+  "prompt_metadata": {
+    "template_version": "1.0",
+    "created_for": "bioinformatics_ai_interaction",
+    "compatible_models": ["claude", "chatgpt", "gemini", "other_llms"],
+    "last_updated": "2025-08-21"
+  },
+  
+  "task_specification": {
+    "primary_objective": "string - Clearly state your main goal",
+    "task_category": "enum - ['sequence_analysis', 'structural_biology', 'drug_design', 'molecular_docking', 'virtual_screening', 'admet_prediction', 'qsar_modeling', 'pharmacophore_modeling', 'lead_optimization', 'fragment_based_design', 'structure_based_design', 'ligand_based_design', 'molecular_dynamics', 'free_energy_calculation', 'protein_folding', 'allosteric_analysis', 'genomics', 'transcriptomics', 'proteomics', 'metabolomics', 'epigenomics', 'phylogenetics', 'data_analysis', 'pipeline_development', 'literature_review', 'method_development', 'visualization', 'ngs_preprocessing', 'variant_calling', 'differential_expression', 'pathway_analysis', 'network_analysis', 'multiomics_integration', 'single_cell_analysis', 'spatial_omics', 'population_genetics', 'gwas', 'metagenomics', 'microbiome_analysis', 'quality_control', 'batch_correction', 'dimensionality_reduction', 'clustering', 'trajectory_analysis', 'regulatory_analysis', 'chromatin_analysis', 'other']",
+    "complexity_level": "enum - ['beginner', 'intermediate', 'advanced', 'expert']",
+    "expected_output": "enum - ['code', 'analysis', 'explanation', 'visualization', 'workflow', 'report', 'tutorial', 'comparison']"
+  },
+  
+  "biological_context": {
+    "organism": "string - e.g., 'Homo sapiens', 'E. coli', 'SARS-CoV-2'",
+    "biological_system": "string - e.g., 'protein-protein interaction', 'metabolic pathway', 'gene regulation'",
+    "research_domain": "string - e.g., 'oncology', 'infectious disease', 'neuroscience', 'immunology'",
+    "experimental_context": "string - describe experimental setup or biological question"
+  },
+  
+      "data_specifications": {
+    "input_data": {
+      "data_type": "enum - ['sequence', 'structure', 'expression', 'interaction', 'chemical', 'genomic', 'proteomic', 'metabolomic', 'clinical', 'literature', 'multiomics', 'ngs_raw', 'ngs_processed']",
+      "file_formats": ["array of strings - e.g., 'fasta', 'pdb', 'sdf', 'csv', 'xlsx', 'fastq', 'bam', 'vcf', 'h5ad', 'mtx', 'h5', 'bed', 'gff', 'gtf', 'bigwig', 'mzml', 'raw', 'mol2', 'smiles', 'inchi', 'mol', 'xyz', 'gro', 'top', 'itp', 'mdp', 'xtc', 'trr', 'edr', 'tpr', 'cpt', 'dcd', 'prmtop', 'inpcrd', 'rst7', 'netcdf', 'psf', 'crd', 'mae', 'maestro', 'prm', 'mdin', 'mdout', 'mmcif', 'cif']",
+      "data_size": "string - e.g., 'single sequence', '1000 proteins', '10GB genomic data', '500M reads', '50K cells'",
+      "data_source": "string - e.g., 'UniProt', 'PDB', 'NCBI', 'experimental', 'proprietary', 'GEO', 'ArrayExpress', 'SRA', 'TCGA', 'GTEx'",
+      "quality_notes": "string - any data quality issues or preprocessing needed"
+    },
+    "ngs_specifications": {
+      "sequencing_platform": "enum - ['illumina', 'oxford_nanopore', 'pacbio', 'ion_torrent', 'bgiseq', 'mixed', 'unknown']",
+      "sequencing_type": "enum - ['wgs', 'wes', 'targeted_seq', 'rna_seq', 'single_cell_rna', 'single_cell_atac', 'chip_seq', 'atac_seq', 'cut_and_run', 'bisulfite_seq', 'methyl_seq', 'hi_c', 'capture_c', 'rip_seq', 'clip_seq', 'ribosome_profiling', 'long_read_seq', 'spatial_transcriptomics']",
+      "read_type": "enum - ['single_end', 'paired_end', 'mixed']",
+      "read_length": "string or number - e.g., '150bp', '75bp', 'variable'",
+      "depth_coverage": "string - e.g., '30X', '50M reads', 'deep', 'shallow'",
+      "library_prep": "string - library preparation method if relevant",
+      "quality_scores": "string - e.g., 'phred33', 'phred64', 'sanger'"
+    },
+    "multiomics_design": {
+      "omics_layers": ["array - e.g., 'genomics', 'transcriptomics', 'proteomics', 'metabolomics', 'epigenomics', 'microbiome', 'phenomics', 'lipidomics', 'glycomics']",
+      "integration_level": "enum - ['multi_modal', 'multi_platform', 'multi_condition', 'multi_timepoint', 'multi_tissue', 'multi_species']",
+      "sample_matching": "enum - ['same_samples', 'paired_samples', 'population_level', 'independent']",
+      "temporal_design": "string - time points, longitudinal design",
+      "spatial_component": "boolean - whether spatial information is included",
+      "single_cell_component": "boolean - whether single-cell data is included"
+    },
+    "molecular_details": {
+      "molecule_type": "enum - ['protein', 'dna', 'rna', 'small_molecule', 'complex', 'mixed', 'peptide', 'lipid', 'carbohydrate', 'metal_complex', 'drug_compound', 'natural_product', 'polymer']",
+      "sequence_length": "string or number - if applicable",
+      "molecular_weight": "string or number - if applicable",
+      "special_features": "string - e.g., 'membrane protein', 'enzyme', 'drug target', 'biomarker', 'allosteric site', 'binding_pocket', 'catalytic_site'",
+      "drug_design_context": {
+        "target_class": "enum - ['gpcr', 'kinase', 'protease', 'ion_channel', 'nuclear_receptor', 'transcription_factor', 'enzyme', 'antibody', 'other']",
+        "binding_site_info": "string - known binding sites, allosteric sites, pockets",
+        "known_inhibitors": "string - existing drugs or compounds",
+        "selectivity_requirements": "string - selectivity vs off-targets",
+        "drug_modality": "enum - ['small_molecule', 'biologics', 'peptide', 'antibody', 'conjugate', 'prodrug', 'fragment']"
+      },
+      "md_system_details": {
+        "system_size": "string - number of atoms, box dimensions",
+        "solvent_model": "enum - ['explicit', 'implicit', 'mixed', 'none']",
+        "ionic_strength": "string - salt concentration, ion types",
+        "membrane_system": "boolean - whether membrane is present",
+        "cofactors_ligands": "string - bound cofactors, ligands, metals",
+        "oligomeric_state": "enum - ['monomer', 'dimer', 'oligomer', 'complex']"
+      }
+    }
+  },
+  
+  "analysis_requirements": {
+    "methods_preferred": ["array of strings - e.g., 'blast', 'hmmer', 'clustal', 'modeller', 'chimeraX', 'pymol', 'star', 'hisat2', 'kallisto', 'salmon', 'deseq2', 'edger', 'limma', 'seurat', 'scanpy', 'cellranger', 'gatk', 'bcftools', 'samtools', 'fastqc', 'multiqc', 'trimmomatic', 'cutadapt', 'autodock', 'vina', 'glide', 'gold', 'gromacs', 'amber', 'namd', 'openmm', 'rdkit', 'openeye', 'schrodinger', 'maestro']",
+    "drug_design_workflow": {
+      "design_strategy": "enum - ['structure_based', 'ligand_based', 'fragment_based', 'de_novo_design', 'virtual_screening', 'lead_optimization', 'scaffold_hopping']",
+      "docking_protocol": "enum - ['rigid_docking', 'flexible_docking', 'induced_fit', 'ensemble_docking', 'covalent_docking', 'free_energy_perturbation']",
+      "scoring_functions": ["array - e.g., 'glide_score', 'autodock_vina', 'chemplp', 'gold_fitness', 'mm_pbsa', 'mm_gbsa', 'interaction_fingerprints']",
+      "compound_libraries": ["array - e.g., 'chembl', 'zinc', 'pubchem', 'drugbank', 'enamine', 'specs', 'mcule', 'custom']",
+      "admet_prediction": ["array - e.g., 'solubility', 'permeability', 'bioavailability', 'metabolism', 'toxicity', 'herg', 'cyp450', 'blood_brain_barrier']",
+      "pharmacophore_features": ["array - e.g., 'hydrogen_bond_donor', 'hydrogen_bond_acceptor', 'hydrophobic', 'aromatic', 'positive_ionizable', 'negative_ionizable']",
+      "qsar_descriptors": ["array - e.g., 'molecular_descriptors', 'fingerprints', 'topological', 'electronic', 'geometric', '3d_descriptors']"
+    },
+    "molecular_dynamics": {
+      "simulation_type": "enum - ['equilibrium_md', 'steered_md', 'umbrella_sampling', 'replica_exchange', 'metadynamics', 'accelerated_md', 'coarse_grained', 'enhanced_sampling']",
+      "force_field": "enum - ['amber99sb', 'charmm36', 'oplsaa', 'gromos', 'amber14sb', 'charmm27', 'martini', 'custom']",
+      "simulation_length": "string - e.g., '100ns', '1μs', '10ms'",
+      "temperature": "string or number - simulation temperature",
+      "pressure": "string - NPT, NVT conditions",
+      "analysis_methods": ["array - e.g., 'rmsd', 'rmsf', 'radius_of_gyration', 'pca', 'clustering', 'free_energy_landscapes', 'contact_maps', 'hydrogen_bonds', 'secondary_structure']",
+      "trajectory_analysis": ["array - e.g., 'conformational_sampling', 'binding_analysis', 'allosteric_pathways', 'pocket_dynamics', 'water_analysis', 'lipid_interactions']",
+      "enhanced_sampling": "enum - ['none', 'metadynamics', 'replica_exchange', 'umbrella_sampling', 'adaptive_biasing', 'string_method']"
+    },
+    "ngs_workflow": {
+      "preprocessing_steps": ["array - e.g., 'quality_control', 'adapter_trimming', 'quality_filtering', 'deduplication', 'contamination_removal']",
+      "alignment_strategy": "enum - ['reference_based', 'de_novo_assembly', 'pseudo_alignment', 'alignment_free']",
+      "reference_genome": "string - e.g., 'hg38', 'GRCh38', 'mm10', 'dm6', 'custom'",
+      "variant_calling": "boolean - whether variant analysis is needed",
+      "quantification_method": "enum - ['gene_level', 'transcript_level', 'exon_level', 'peak_calling', 'bin_counting']",
+      "normalization_method": "enum - ['tpm', 'fpkm', 'rpkm', 'cpm', 'deseq2', 'tmm', 'quantile', 'none']"
+    },
+    "multiomics_analysis": {
+      "integration_methods": ["array - e.g., 'data_fusion', 'network_integration', 'pathway_mapping', 'correlation_analysis', 'joint_modeling', 'dimensionality_reduction']",
+      "statistical_framework": "enum - ['frequentist', 'bayesian', 'machine_learning', 'mixed_effects', 'meta_analysis']",
+      "cross_validation": "string - validation strategy across omics layers",
+      "pathway_databases": ["array - e.g., 'kegg', 'reactome', 'go', 'msigdb', 'wikipathways', 'string']"
+    },
+    "single_cell_analysis": {
+      "cell_type_annotation": "boolean - whether cell type identification is needed",
+      "trajectory_analysis": "boolean - whether pseudotime analysis is needed",
+      "spatial_analysis": "boolean - whether spatial relationships are important",
+      "integration_approach": "enum - ['batch_correction', 'data_integration', 'reference_mapping', 'joint_analysis']"
+    },
+    "algorithms_needed": ["array of strings - specific algorithms or approaches"],
+    "statistical_analysis": "string - statistical methods required",
+    "validation_criteria": "string - how to validate results",
+    "benchmarking": "boolean - whether comparison with known methods is needed"
+  },
+  
+  "technical_preferences": {
+    "programming_language": "enum - ['python', 'r', 'bash', 'perl', 'java', 'c++', 'nextflow', 'snakemake', 'cwl', 'tcl', 'mixed', 'any']",
+    "libraries_frameworks": ["array of strings - e.g., 'biopython', 'rdkit', 'mdanalysis', 'pandas', 'scikit-learn', 'scanpy', 'seurat', 'bioconductor', 'deseq2', 'limma', 'mofa2', 'harmony', 'scvi-tools', 'cellphonedb', 'nichenet', 'pysam', 'htseq', 'pybedtools', 'pyranges', 'anndata', 'mudata', 'openmm', 'mdtraj', 'pytraj', 'prody', 'biotite', 'openeye', 'mordred', 'deepchem', 'chemml', 'tensorflow', 'pytorch', 'keras']",
+    "drug_design_tools": ["array of strings - e.g., 'rdkit', 'openeye', 'schrodinger_suite', 'maestro', 'glide', 'prime', 'macromodel', 'autodock', 'autodock_vina', 'gold', 'plants', 'leadfinder', 'surflex', 'flexx', 'dock6', 'rosetta', 'openmoltools', 'plip', 'prolif', 'fepplus', 'fep_mapper', 'pmx', 'alchemlyb']",
+    "molecular_dynamics_tools": ["array of strings - e.g., 'gromacs', 'amber', 'namd', 'lammps', 'openmm', 'desmond', 'charmm', 'gromos', 'dlpoly', 'hoomd', 'plumed', 'cpptraj', 'vmd', 'pymol', 'chimera', 'chimeraX', 'nglview', 'mdanalysis', 'mdtraj', 'pytraj', 'prody', 'freesasa', 'dssp', 'stride']",
+    "cheminformatics_libraries": ["array of strings - e.g., 'rdkit', 'openeye', 'cdk', 'indigo', 'chemaxon', 'avalon', 'openbabel', 'mordred', 'padelpy', 'molvs', 'standardiser', 'chembl_webresource_client', 'pubchempy', 'cirpy']",
+    "ngs_tools": ["array of strings - e.g., 'fastqc', 'multiqc', 'trimmomatic', 'cutadapt', 'star', 'hisat2', 'bwa', 'bowtie2', 'kallisto', 'salmon', 'htseq', 'featurecounts', 'gatk', 'bcftools', 'samtools', 'bedtools', 'deeptools', 'macs2', 'homer', 'cellranger', 'spaceranger', 'alevin', 'bustools']",
+    "workflow_management": "enum - ['bash_scripts', 'snakemake', 'nextflow', 'cwl', 'galaxy', 'cromwell', 'toil', 'airflow', 'custom', 'none']",
+    "cloud_platforms": ["array - e.g., 'aws', 'gcp', 'azure', 'terra', 'seven_bridges', 'galaxy', 'rescale', 'orion', 'none']",
+    "containerization": "enum - ['docker', 'singularity', 'conda', 'mamba', 'mixed', 'none']",
+    "hpc_schedulers": ["array - e.g., 'slurm', 'pbs', 'sge', 'lsf', 'condor', 'kubernetes', 'none']",
+    "software_tools": ["array of strings - e.g., 'blast+', 'clustalw', 'igv', 'ucsc_browser', 'ensembl', 'cytoscape', 'string', 'david', 'metascape', 'pymol', 'vmd', 'chimera', 'ccp4', 'phenix', 'coot', 'modeller', 'i-tasser', 'alphafold', 'colabfold']",
+    "computational_environment": "enum - ['local_machine', 'hpc_cluster', 'cloud', 'web_server', 'docker', 'conda', 'slurm', 'pbs', 'kubernetes', 'gpu_cluster']",
+    "hardware_requirements": {
+      "gpu_acceleration": "boolean - whether GPU is needed",
+      "memory_requirements": "string - RAM requirements",
+      "storage_needs": "string - disk space requirements",
+      "cpu_cores": "string or number - parallel processing needs",
+      "special_hardware": "string - e.g., 'high_memory', 'nvme_storage', 'infiniband'"
+    },
+    "performance_requirements": "string - speed, memory, or scalability needs",
+    "reproducibility_tools": ["array - e.g., 'version_control', 'containerization', 'environment_management', 'workflow_management', 'data_provenance', 'parameter_tracking']"
+  },
+  
+  "output_specifications": {
+    "format_preference": "enum - ['script', 'jupyter_notebook', 'pipeline', 'gui_application', 'report', 'tutorial']",
+    "visualization_needs": ["array of strings - e.g., 'molecular_structure', 'protein_structure', 'drug_binding', 'active_site', 'surface_representation', 'electrostatic_potential', 'hydrophobic_surfaces', 'pharmacophore_mapping', 'interaction_diagrams', 'binding_poses', 'md_trajectories', 'rmsd_plots', 'rmsf_plots', 'free_energy_profiles', 'energy_landscapes', 'pca_analysis', 'conformational_clustering', 'contact_maps', 'hydrogen_bond_analysis', 'phylogenetic_tree', 'heatmap', 'network', 'plots', 'volcano_plot', 'ma_plot', 'manhattan_plot', 'qq_plot', 'pca_plot', 'tsne_plot', 'umap_plot', 'violin_plot', 'box_plot', 'scatter_plot', 'genome_browser', 'igv_tracks', 'circos_plot', 'upset_plot', 'alluvial_diagram', 'pathway_diagram', 'go_enrichment', 'chord_diagram', 'sankey_diagram', 'dimensionality_reduction', 'clustering_visualization', 'trajectory_plot', 'spatial_plot', 'interactive_plots', 'chemical_space', 'sar_analysis', 'admet_radar_plots']",
+    "documentation_level": "enum - ['minimal', 'standard', 'comprehensive', 'tutorial_style']",
+    "reproducibility": "boolean - whether reproducible analysis is critical",
+    "sharing_requirements": "string - how results will be shared or published"
+  },
+  
+  "constraints_limitations": {
+    "time_constraints": "string - deadline or urgency level",
+    "computational_limits": "string - hardware or resource limitations",
+    "data_privacy": "string - any confidentiality or privacy concerns",
+    "budget_software": "string - preference for free/open-source vs commercial tools",
+    "collaboration_needs": "string - team or sharing requirements"
+  },
+  
+  "background_context": {
+    "user_expertise": "enum - ['student', 'postdoc', 'researcher', 'industry_professional', 'clinician']",
+    "experience_level": {
+      "bioinformatics": "enum - ['novice', 'intermediate', 'advanced', 'expert']",
+      "programming": "enum - ['novice', 'intermediate', 'advanced', 'expert']",
+      "domain_biology": "enum - ['novice', 'intermediate', 'advanced', 'expert']"
+    },
+    "learning_goals": "string - what you want to learn or improve",
+    "project_stage": "enum - ['planning', 'pilot_study', 'full_analysis', 'publication_prep', 'troubleshooting']"
+  },
+  
+  "specific_questions": {
+    "primary_question": "string - your main question",
+    "sub_questions": ["array of strings - related questions"],
+    "known_challenges": "string - anticipated difficulties",
+    "previous_attempts": "string - what you've tried before",
+    "success_criteria": "string - how you'll know if the solution works"
+  },
+  
+  "examples": {
+    "sample_input": "string - example of your input data",
+    "expected_output": "string - what you expect to get",
+    "similar_studies": "string - references to similar work",
+    "use_cases": ["array of strings - how you'll use the results"],
+    "workflow_examples": {
+      "drug_design_examples": {
+        "virtual_screening": "High-throughput virtual screening of ChEMBL database against COVID-19 main protease",
+        "lead_optimization": "Structure-based optimization of kinase inhibitors using FEP calculations",
+        "fragment_based_design": "Fragment screening and linking for allosteric modulator discovery",
+        "admet_prediction": "QSAR modeling for blood-brain barrier permeability prediction",
+        "pharmacophore_modeling": "3D pharmacophore generation from known GPCR ligands",
+        "de_novo_design": "AI-driven molecular generation targeting specific protein pockets"
+      },
+      "molecular_dynamics_examples": {
+        "protein_dynamics": "100ns MD simulation of membrane protein conformational changes",
+        "drug_binding": "Free energy calculation for drug-target binding affinity prediction",
+        "allosteric_analysis": "Enhanced sampling MD to study allosteric communication pathways",
+        "membrane_systems": "Lipid bilayer simulation with embedded GPCR using GROMACS",
+        "protein_folding": "Temperature replica exchange simulation for peptide folding",
+        "enhanced_sampling": "Metadynamics simulation for rare event sampling and free energy calculation"
+      },
+      "rna_seq_example": "Differential gene expression analysis between cancer vs normal samples using DESeq2",
+      "single_cell_example": "Cell type identification and trajectory analysis of embryonic development",
+      "multiomics_example": "Integration of RNA-seq, ATAC-seq, and proteomics data for pathway analysis",
+      "variant_calling_example": "Germline variant discovery from whole exome sequencing data",
+      "metagenomics_example": "Taxonomic classification and functional annotation of gut microbiome",
+      "spatial_example": "Spatial transcriptomics analysis of tissue architecture",
+      "epigenomics_example": "ChIP-seq peak calling and motif analysis for transcription factor binding",
+      "gwas_example": "Genome-wide association study for complex trait analysis"
+    }
+  },
+  
+  "ai_interaction_preferences": {
+    "explanation_style": "enum - ['concise', 'detailed', 'step_by_step', 'conversational']",
+    "code_style": "enum - ['functional', 'object_oriented', 'scripting', 'pipeline']",
+    "error_handling": "enum - ['basic', 'robust', 'production_ready']",
+    "follow_up_support": "boolean - whether you expect iterative refinement"
+  }
+}
