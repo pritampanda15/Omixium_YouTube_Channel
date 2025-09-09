@@ -1,0 +1,2 @@
+Index,Name,Formula,MW,HeavyAtoms,RotatableBonds,HBD,HBA,TPSA,LogP,TotalFeatures,n_Donor,n_Acceptor,n_Aromatic,n_Hydrophobe,n_PosIonizable,n_NegIonizable,n_LumpedHydrophobe
+0,ZINC000000407042,C8H7ClO3,186.59,12,3,2,3,57.53,1.67,14,2,3,1,6,0,1,1

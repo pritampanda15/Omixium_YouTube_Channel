@@ -1,0 +1,31 @@
+Feature_ID,Feature_Type,Atom_Indices,Num_Atoms
+Donor_1,Donor,"(10,)",1
+Donor_2,Donor,"(15,)",1
+Donor_3,Donor,"(16,)",1
+Donor_4,Donor,"(26,)",1
+Acceptor_5,Acceptor,"(2,)",1
+Acceptor_6,Acceptor,"(6,)",1
+Acceptor_7,Acceptor,"(15,)",1
+Acceptor_8,Acceptor,"(25,)",1
+Acceptor_9,Acceptor,"(28,)",1
+Acceptor_10,Acceptor,"(29,)",1
+PosIonizable_11,PosIonizable,"(10,)",1
+Aromatic_12,Aromatic,"(1, 2, 3, 4, 5, 6)",6
+Aromatic_13,Aromatic,"(17, 18, 19, 20, 21, 22)",6
+Aromatic_14,Aromatic,"(30, 31, 32, 33, 34, 35)",6
+Hydrophobe_15,Hydrophobe,"(0,)",1
+Hydrophobe_16,Hydrophobe,"(4,)",1
+Hydrophobe_17,Hydrophobe,"(18,)",1
+Hydrophobe_18,Hydrophobe,"(19,)",1
+Hydrophobe_19,Hydrophobe,"(20,)",1
+Hydrophobe_20,Hydrophobe,"(21,)",1
+Hydrophobe_21,Hydrophobe,"(22,)",1
+Hydrophobe_22,Hydrophobe,"(30,)",1
+Hydrophobe_23,Hydrophobe,"(31,)",1
+Hydrophobe_24,Hydrophobe,"(32,)",1
+Hydrophobe_25,Hydrophobe,"(33,)",1
+Hydrophobe_26,Hydrophobe,"(34,)",1
+Hydrophobe_27,Hydrophobe,"(35,)",1
+Hydrophobe_28,Hydrophobe,"(36,)",1
+LumpedHydrophobe_29,LumpedHydrophobe,"(17, 18, 19, 20, 21, 22)",6
+LumpedHydrophobe_30,LumpedHydrophobe,"(30, 31, 32, 33, 34, 35)",6

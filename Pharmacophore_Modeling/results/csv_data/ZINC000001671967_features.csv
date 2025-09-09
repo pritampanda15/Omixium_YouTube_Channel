@@ -1,0 +1,17 @@
+Feature_ID,Feature_Type,Atom_Indices,Num_Atoms
+Donor_1,Donor,"(2,)",1
+Donor_2,Donor,"(11,)",1
+Acceptor_3,Acceptor,"(0,)",1
+Acceptor_4,Acceptor,"(2,)",1
+Acceptor_5,Acceptor,"(6,)",1
+Acceptor_6,Acceptor,"(11,)",1
+NegIonizable_7,NegIonizable,"(1, 0, 2)",3
+Aromatic_8,Aromatic,"(7, 13, 12, 10, 9, 8)",6
+Hydrophobe_9,Hydrophobe,"(3,)",1
+Hydrophobe_10,Hydrophobe,"(4,)",1
+Hydrophobe_11,Hydrophobe,"(7,)",1
+Hydrophobe_12,Hydrophobe,"(8,)",1
+Hydrophobe_13,Hydrophobe,"(9,)",1
+Hydrophobe_14,Hydrophobe,"(12,)",1
+Hydrophobe_15,Hydrophobe,"(13,)",1
+LumpedHydrophobe_16,LumpedHydrophobe,"(7, 13, 12, 10, 9, 8)",6

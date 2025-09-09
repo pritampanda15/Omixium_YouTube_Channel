@@ -1,0 +1,2987 @@
+ZINC000000407042
+  SciTegic09072510593D
+
+ 17 17  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2150    0.0087 C   0  0
+    1.0330    1.8389    0.0021 O   0  0
+   -1.3296    1.9507    0.0190 C   0  0
+   -2.4617    0.9559    0.0189 C   0  0
+   -2.9818    0.5027   -1.1790 C   0  0
+   -4.0196   -0.4098   -1.1823 C   0  0
+   -4.5397   -0.8713    0.0174 C   0  0
+   -5.5602   -1.7692    0.0166 O   0  0
+   -4.0159   -0.4149    1.2197 C   0  0
+   -4.6639   -0.9899    2.7240 Cl  0  0
+   -2.9745    0.4938    1.2172 C   0  0
+   -1.3917    2.5717    0.9126 H   0  0
+   -1.4001    2.5813   -0.8673 H   0  0
+   -2.5769    0.8625   -2.1133 H   0  0
+   -4.4255   -0.7631   -2.1187 H   0  0
+   -2.5661    0.8492    2.1518 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  4 13  1  0
+  4 14  1  0
+  5 12  2  0
+  5  6  1  0
+  6  7  2  0
+  6 15  1  0
+  7  8  1  0
+  7 16  1  0
+  8  9  1  0
+  8 10  2  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 17  1  0
+M  END
+> <Name>
+ZINC000000407042
+
+> <ADMET_Solubility>
+-1.795
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.494
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-3.10144881355397
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+10.2211566430293
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+8.3870787065e-002
+
+> <ADMET_EXT_Hepatotoxic>
+0.292969807749075
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.7231251825544
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+1.4398239395e-002
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-4.4878762056e-002
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.0037985850978
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.903740030429544
+
+> <ADMET_AlogP98>
+1.917
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000238647610
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2193    0.0087 C   0  0
+    1.0366    1.8454    0.0021 O   0  0
+   -1.2987    1.9376    0.0187 C   0  0
+   -2.5024    1.2237    0.0264 C   0  0
+   -3.7021    1.9009    0.0357 C   0  0
+   -4.8649    1.2131    0.0430 F   0  0
+   -3.7180    3.2935    0.0379 C   0  0
+   -4.9022    3.9564    0.0476 O   0  0
+   -2.5257    4.0062    0.0309 C   0  0
+   -1.3203    3.3377    0.0265 C   0  0
+    0.1687    4.2302    0.0182 Cl  0  0
+   -2.4908    0.1437    0.0246 H   0  0
+   -2.5432    5.0861    0.0330 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 11  2  0
+  4  5  1  0
+  5  6  2  0
+  5 13  1  0
+  6  7  1  0
+  6  8  1  0
+  8  9  1  0
+  8 10  2  0
+ 10 11  1  0
+ 10 14  1  0
+ 11 12  1  0
+M  END
+> <Name>
+ZINC000238647610
+
+> <ADMET_Solubility>
+-2.272
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.441
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-4.53169835475901
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+13.425875583177
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.0936503648e-004
+
+> <ADMET_EXT_Hepatotoxic>
+0.746718326738929
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.7098189901772
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+1.4964700713e-002
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-0.829844379643377
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+12.4356517776705
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+3.2016999555e-002
+
+> <ADMET_AlogP98>
+2.087
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000005459729
+  SciTegic09072510593D
+
+ 20 19  0  0  0  0            999 V2000
+   -0.0187    1.5258    0.0104 C   0  0
+    0.0021   -0.0041    0.0020 C   0  0
+   -1.3723   -0.5112    0.0124 N   0  0
+   -1.6006   -1.8394    0.0075 C   0  0
+   -0.2844   -2.9341   -0.0110 S   0  0
+   -3.2536   -2.4493    0.0200 S   0  0
+   -2.9316   -4.2304    0.0073 C   0  0
+   -4.2603   -4.9890    0.0159 C   0  0
+   -3.9922   -6.4719    0.0054 C   0  0
+   -2.8448   -6.8838   -0.0077 O   0  0
+   -4.9227   -7.2597    0.0101 O   0  0
+    1.0039    1.9031    0.0027 H   0  0
+   -0.5459    1.8868   -0.8726 H   0  0
+   -0.5289    1.8773    0.9072 H   0  0
+    0.5123   -0.3556   -0.8948 H   0  0
+    0.5293   -0.3651    0.8851 H   0  0
+   -2.3699   -4.4917   -0.8895 H   0  0
+   -2.3529   -4.5013    0.8904 H   0  0
+   -4.8221   -4.7277    0.9127 H   0  0
+   -4.8391   -4.7181   -0.8671 H   0  0
+  1  2  1  0
+  1 12  1  0
+  1 13  1  0
+  1 14  1  0
+  2  3  1  0
+  2 15  1  0
+  2 16  1  0
+  3  4  1  0
+  4  5  2  0
+  4  6  1  0
+  6  7  1  0
+  7  8  1  0
+  7 17  1  0
+  7 18  1  0
+  8  9  1  0
+  8 19  1  0
+  8 20  1  0
+  9 10  2  0
+  9 11  1  0
+M  END
+> <Name>
+ZINC000005459729
+
+> <ADMET_Solubility>
+-1.3
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.48
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-7.59467210630191
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+11.5107642763539
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+8.2058143013e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-5.92730888744787
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+9.04598322330928
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.433924713392127
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-6.28839673668516
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.6709301386734
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.655807297359319
+
+> <ADMET_AlogP98>
+1.552
+
+> <ADMET_PSA_2D>
+50.926
+
+$$$$
+ZINC000071774281
+  SciTegic09072510593D
+
+ 20 19  0  0  0  0            999 V2000
+   -0.0225    1.8057    0.0120 C   0  0
+    0.0021   -0.0041    0.0020 S   0  0
+    0.8594   -0.2901   -1.5105 C   0  0
+    1.3826    1.0338   -2.4615 S   0  0
+    1.1032   -1.5512   -1.9189 N   0  0
+    1.8160   -1.7890   -3.1765 C   0  0
+    1.9602   -3.2951   -3.4040 C   0  0
+    2.7046   -3.5435   -4.7174 C   0  0
+    2.8467   -5.0270   -4.9415 C   0  0
+    2.3945   -5.8127   -4.1263 O   0  0
+    3.4139   -5.4414   -5.9380 O   0  0
+    1.0001    2.1830    0.0042 H   0  0
+   -0.5497    2.1668   -0.8711 H   0  0
+   -0.5327    2.1573    0.9088 H   0  0
+    1.2549   -1.3491   -4.0010 H   0  0
+    2.8047   -1.3329   -3.1256 H   0  0
+    2.5213   -3.7350   -2.5795 H   0  0
+    0.9716   -3.7512   -3.4549 H   0  0
+    2.1435   -3.1036   -5.5419 H   0  0
+    3.6933   -3.0874   -4.6666 H   0  0
+  1  2  1  0
+  1 12  1  0
+  1 13  1  0
+  1 14  1  0
+  2  3  1  0
+  3  4  2  0
+  3  5  1  0
+  5  6  1  0
+  6  7  1  0
+  6 15  1  0
+  6 16  1  0
+  7  8  1  0
+  7 17  1  0
+  7 18  1  0
+  8  9  1  0
+  8 19  1  0
+  8 20  1  0
+  9 10  2  0
+  9 11  1  0
+M  END
+> <Name>
+ZINC000071774281
+
+> <ADMET_Solubility>
+-1.274
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.489
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-6.28756630175722
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+10.7228290940775
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+3.6535297967e-002
+
+> <ADMET_EXT_Hepatotoxic>
+-7.60985977775367
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+8.89548936563119
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.510117392658036
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-5.03315920912813
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.6040746724869
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.687973195381526
+
+> <ADMET_AlogP98>
+1.525
+
+> <ADMET_PSA_2D>
+50.926
+
+$$$$
+ZINC000002168364
+  SciTegic09072510593D
+
+ 18 18  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0192    1.5624    0.0106 P   0  0
+    1.4506    2.1047   -0.0005 O   0  0
+   -0.7769    2.0814   -1.2586 O   0  0
+   -0.8725    2.1503    1.5105 C   0  0
+   -0.8929    3.6572    1.5188 C   0  0
+    0.1429    4.3592    2.1063 C   0  0
+    0.1241    5.7414    2.1139 C   0  0
+   -0.9301    6.4216    1.5336 C   0  0
+   -1.9655    5.7195    0.9453 C   0  0
+   -1.9446    4.3374    0.9339 C   0  0
+   -1.8950    1.7731    1.5182 H   0  0
+   -0.3453    1.7893    2.3936 H   0  0
+    0.9666    3.8279    2.5597 H   0  0
+    0.9330    6.2899    2.5736 H   0  0
+   -0.9451    7.5015    1.5402 H   0  0
+   -2.7893    6.2509    0.4921 H   0  0
+   -2.7535    3.7889    0.4742 H   0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  2  5  1  0
+  5  6  1  0
+  5 12  1  0
+  5 13  1  0
+  6 11  2  0
+  6  7  1  0
+  7  8  2  0
+  7 14  1  0
+  8  9  1  0
+  8 15  1  0
+  9 10  2  0
+  9 16  1  0
+ 10 11  1  0
+ 10 17  1  0
+ 11 18  1  0
+M  END
+> <Name>
+ZINC000002168364
+
+> <ADMET_Solubility>
+-0.223
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+1
+
+> <ADMET_BBB>
+-0.86
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-3.57648542978034
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 905555314: [*]CP(O)(O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+8.42402961665912
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.617080323814385
+
+> <ADMET_EXT_Hepatotoxic>
+-4.07606279331395
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 905555314: [*]CP(O)(O)O
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+6.64520418145782
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.999164120437453
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-5.4658878504235
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 905555314: [*]CP(O)(O)O
+
+> <ADMET_EXT_PPB_Applicability#MD>
+8.6951728196492
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.999229480485266
+
+> <ADMET_AlogP98>
+0.912
+
+> <ADMET_PSA_2D>
+62.446
+
+$$$$
+ZINC000002573720
+  SciTegic09072510593D
+
+ 20 21  0  0  1  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0192    1.5624    0.0106 P   0  0
+    1.4506    2.1047   -0.0005 O   0  0
+   -0.7769    2.0814   -1.2586 O   0  0
+   -0.8725    2.1503    1.5105 C   0  0  1  0  0  0
+   -1.8934    1.7695    1.5368 H   0  0
+   -0.1196    1.7137    2.7455 C   0  0
+    0.2582    2.7951    3.4046 C   0  0
+   -0.1824    4.0195    2.7111 C   0  0
+   -0.0232    5.3734    3.0158 C   0  0
+   -0.5474    6.3336    2.1755 C   0  0
+   -1.2312    5.9638    1.0314 C   0  0
+   -1.3938    4.6236    0.7217 C   0  0
+   -0.8765    3.6591    1.5517 C   0  0
+    0.0763    0.6931    3.0393 H   0  0
+    0.8159    2.7835    4.3294 H   0  0
+    0.5099    5.6679    3.9078 H   0  0
+   -0.4234    7.3800    2.4124 H   0  0
+   -1.6394    6.7213    0.3788 H   0  0
+   -1.9279    4.3364   -0.1719 H   0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  2  5  1  0
+  5  6  1  1
+  5 14  1  0
+  5  7  1  0
+  7  8  2  0
+  7 15  1  0
+  8  9  1  0
+  8 16  1  0
+  9 14  2  0
+  9 10  1  0
+ 10 11  2  0
+ 10 17  1  0
+ 11 12  1  0
+ 11 18  1  0
+ 12 13  2  0
+ 12 19  1  0
+ 13 14  1  0
+ 13 20  1  0
+M  END
+> <Name>
+ZINC000002573720
+
+> <ADMET_Solubility>
+-0.849
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+1
+
+> <ADMET_BBB>
+-0.783
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.50381612260719
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 905555314: [*]CP(O)(O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.6125791653736
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+7.5210298824e-004
+
+> <ADMET_EXT_Hepatotoxic>
+-4.82948556854311
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 905555314: [*]CP(O)(O)O
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.0024755565624
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+8.955285681e-002
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-1.69449082675808
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 905555314: [*]CP(O)(O)O
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.6695189522616
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.656497997740809
+
+> <ADMET_AlogP98>
+1.162
+
+> <ADMET_PSA_2D>
+62.446
+
+$$$$
+ZINC000013541707
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2192    0.0087 C   0  0
+    1.0365    1.8452    0.0021 O   0  0
+   -1.2995    1.9380    0.0187 C   0  0
+   -1.3207    3.3367    0.0207 C   0  0
+   -2.5258    4.0060    0.0301 C   0  0
+   -2.5473    5.3568    0.0315 F   0  0
+   -3.7202    3.2921    0.0377 C   0  0
+   -4.9051    3.9549    0.0465 O   0  0
+   -3.7035    1.9007    0.0358 C   0  0
+   -4.8658    1.2120    0.0427 F   0  0
+   -2.5025    1.2239    0.0206 C   0  0
+   -0.3941    3.8916    0.0151 H   0  0
+   -2.4903    0.1440    0.0191 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 12  2  0
+  4  5  1  0
+  5  6  2  0
+  5 13  1  0
+  6  7  1  0
+  6  8  1  0
+  8  9  1  0
+  8 10  2  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 14  1  0
+M  END
+> <Name>
+ZINC000013541707
+
+> <ADMET_Solubility>
+-1.885
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.583
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.30823534059841
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.3902046824435
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.2469679994e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-0.401720164492397
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+9.67976889399436
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.170005210791429
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-3.10605006807369
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.3227181178336
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.807347592826788
+
+> <ADMET_AlogP98>
+1.628
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000035269900
+  SciTegic09072510593D
+
+ 15 16  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2199    0.0087 C   0  0
+    1.0371    1.8463    0.0021 O   0  0
+   -1.2954    1.9364    0.0187 C   0  0
+   -2.5453    1.3327    0.0269 C   0  0
+   -3.4839    2.3726    0.0348 C   0  0
+   -4.8775    2.4743    0.0448 C   0  0
+   -5.8652    1.0466    0.0507 Cl  0  0
+   -5.4351    3.6800    0.0502 N   0  0
+   -4.7333    4.7857    0.0465 C   0  0
+   -3.3929    4.8063    0.0370 N   0  0
+   -2.6973    3.6166    0.0307 C   0  0
+   -1.4310    3.2769    0.0271 N   0  0
+   -2.7527    0.2728    0.0271 H   0  0
+   -5.2608    5.7281    0.0510 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 13  1  0
+  4  5  2  0
+  5  6  1  0
+  5 14  1  0
+  6 12  1  0
+  6  7  2  0
+  7  8  1  0
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 10 15  1  0
+ 11 12  1  0
+ 12 13  2  0
+M  END
+> <Name>
+ZINC000035269900
+
+> <ADMET_Solubility>
+-1.8
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-1.118
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-7.2249463579241
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+Unknown FCFP_2 feature: -1374812327: [*]:n:[c](Cl):[c](:[*]):[*]
+Unknown FCFP_2 feature: 178366166: [*]:[nH]:[c]1:n:[*]:[*]:[c]:1:[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+17.2554897953047
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+5.1927909357e-009
+
+> <ADMET_EXT_Hepatotoxic>
+2.39334315086098
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.46934139868
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+2.3977406622e-015
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-7.43073579859707
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 178366166: [*]:[nH]:[c]1:n:[*]:[*]:[c]:1:[*]
+
+> <ADMET_EXT_PPB_Applicability#MD>
+20.7945340801547
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+1.8281315555e-026
+
+> <ADMET_AlogP98>
+0.757
+
+> <ADMET_PSA_2D>
+75.693
+
+$$$$
+ZINC000002539969
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2189    0.0087 C   0  0
+    1.0363    1.8449    0.0021 O   0  0
+   -1.3009    1.9385    0.0188 C   0  0
+   -1.3224    3.3358    0.0207 C   0  0
+   -2.5323    4.0057    0.0301 C   0  0
+   -2.5561    5.3651    0.0320 O   0  0
+   -3.7245    3.2901    0.0372 C   0  0
+   -4.9046    3.9478    0.0456 F   0  0
+   -3.7060    1.9026    0.0354 C   0  0
+   -4.8678    1.2130    0.0423 F   0  0
+   -2.5033    1.2253    0.0206 C   0  0
+   -0.3963    3.8914    0.0152 H   0  0
+   -2.4911    0.1454    0.0188 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 12  2  0
+  4  5  1  0
+  5  6  2  0
+  5 13  1  0
+  6  7  1  0
+  6  8  1  0
+  8  9  1  0
+  8 10  2  0
+ 10 11  1  0
+ 10 12  1  0
+ 12 14  1  0
+M  END
+> <Name>
+ZINC000002539969
+
+> <ADMET_Solubility>
+-1.881
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.583
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.10103896077556
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.3902046824435
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.2469679994e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-0.715308839090294
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+9.67976889399436
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.170005210791429
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85646829992886
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.3227181178336
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.807347592826788
+
+> <ADMET_AlogP98>
+1.628
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000002526729
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2194    0.0087 C   0  0
+    1.0367    1.8456    0.0021 O   0  0
+   -1.2979    1.9373    0.0187 C   0  0
+   -2.5022    1.2233    0.0264 C   0  0
+   -3.7014    1.9003    0.0362 C   0  0
+   -4.8639    1.2121    0.0441 F   0  0
+   -3.7182    3.2933    0.0385 C   0  0
+   -4.9030    3.9551    0.0487 O   0  0
+   -2.5272    4.0070    0.0309 C   0  0
+   -1.3198    3.3387    0.0265 C   0  0
+   -0.1614    4.0338    0.0196 F   0  0
+   -2.4908    0.1434    0.0243 H   0  0
+   -2.5458    5.0868    0.0328 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 11  2  0
+  4  5  1  0
+  5  6  2  0
+  5 13  1  0
+  6  7  1  0
+  6  8  1  0
+  8  9  1  0
+  8 10  2  0
+ 10 11  1  0
+ 10 14  1  0
+ 11 12  1  0
+M  END
+> <Name>
+ZINC000002526729
+
+> <ADMET_Solubility>
+-1.885
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.583
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.30823534059841
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.3902046824435
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.2469679994e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-8.8131489894e-002
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+9.67976889399436
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.170005210791429
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-3.01121397314884
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.3227181178336
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.807347592826788
+
+> <ADMET_AlogP98>
+1.628
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000034781181
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2191    0.0087 C   0  0
+    1.0365    1.8452    0.0021 O   0  0
+   -1.2993    1.9378    0.0187 C   0  0
+   -2.5028    1.2248    0.0264 C   0  0
+   -3.7031    1.9005    0.0363 C   0  0
+   -3.7245    3.2871    0.0386 C   0  0
+   -4.9063    3.9416    0.0482 F   0  0
+   -2.5356    4.0060    0.0315 C   0  0
+   -2.5633    5.3660    0.0342 O   0  0
+   -1.3216    3.3379    0.0265 C   0  0
+   -0.1642    4.0347    0.0200 F   0  0
+   -2.4909    0.1449    0.0243 H   0  0
+   -4.6312    1.3483    0.0418 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 11  2  0
+  4  5  1  0
+  5  6  2  0
+  5 13  1  0
+  6  7  1  0
+  6 14  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  1  0
+M  END
+> <Name>
+ZINC000034781181
+
+> <ADMET_Solubility>
+-1.885
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.583
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.04321073676226
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+13.201333170036
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.88327135e-004
+
+> <ADMET_EXT_Hepatotoxic>
+1.8221081766e-002
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+9.73226891691488
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.154335633264604
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-1.47976445120951
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+11.0614171604239
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.454828500927134
+
+> <ADMET_AlogP98>
+1.628
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000002530713
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2188    0.0087 C   0  0
+    1.0362    1.8447    0.0021 O   0  0
+   -1.3016    1.9388    0.0188 C   0  0
+   -1.3235    3.3359    0.0206 C   0  0
+   -2.5290    4.0058    0.0295 C   0  0
+   -3.7187    3.2986    0.0366 C   0  0
+   -5.2312    4.1505    0.0478 Cl  0  0
+   -3.7069    1.9084    0.0344 C   0  0
+   -4.8785    1.2191    0.0405 O   0  0
+   -2.5037    1.2262    0.0206 C   0  0
+   -0.3970    3.8909    0.0154 H   0  0
+   -2.5448    5.0857    0.0313 H   0  0
+   -2.4932    0.1463    0.0189 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 11  2  0
+  4  5  1  0
+  5  6  2  0
+  5 12  1  0
+  6  7  1  0
+  6 13  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 14  1  0
+M  END
+> <Name>
+ZINC000002530713
+
+> <ADMET_Solubility>
+-1.797
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.505
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-5.26536393593217
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+13.5423584175504
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+8.225382558e-005
+
+> <ADMET_EXT_Hepatotoxic>
+-0.470944054045118
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+15.6843935746058
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.1329543348e-013
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-0.454238625691954
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+12.7867849421888
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+1.1322424487e-002
+
+> <ADMET_AlogP98>
+1.882
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000002379552
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2194    0.0087 C   0  0
+    1.0367    1.8455    0.0021 O   0  0
+   -1.2980    1.9373    0.0187 C   0  0
+   -2.5018    1.2236    0.0264 C   0  0
+   -3.7007    1.8987    0.0356 C   0  0
+   -3.7205    3.2892    0.0375 C   0  0
+   -4.9068    3.9485    0.0471 O   0  0
+   -2.5292    4.0066    0.0300 C   0  0
+   -2.5546    5.3574    0.0318 F   0  0
+   -1.3199    3.3390    0.0265 C   0  0
+   -0.1619    4.0348    0.0196 F   0  0
+   -2.4898    0.1437    0.0246 H   0  0
+   -4.6291    1.3471    0.0412 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 11  2  0
+  4  5  1  0
+  5  6  2  0
+  5 13  1  0
+  6  7  1  0
+  6 14  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  1  0
+M  END
+> <Name>
+ZINC000002379552
+
+> <ADMET_Solubility>
+-1.886
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.583
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.36561077738522
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+10.4668322704481
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+5.6552481329e-002
+
+> <ADMET_EXT_Hepatotoxic>
+-0.424531556821848
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+7.91739865672251
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.90646438863963
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.06182839103851
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+9.95724352731016
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.914226877857418
+
+> <ADMET_AlogP98>
+1.628
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000039128256
+  SciTegic09072510593D
+
+ 13 13  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2187    0.0087 C   0  0
+    1.0361    1.8445    0.0021 O   0  0
+   -1.3028    1.9394    0.0188 C   0  0
+   -1.3134    3.3343    0.0206 C   0  0
+   -2.5270    3.9994    0.0296 C   0  0
+   -3.6963    3.2455    0.0364 C   0  0
+   -4.9074    3.8574    0.0449 O   0  0
+   -3.6093    1.8525    0.0341 C   0  0
+   -5.0621    0.9024    0.0426 Cl  0  0
+   -2.4413    1.2520    0.0204 N   0  0
+   -0.3863    3.8883    0.0154 H   0  0
+   -2.5656    5.0787    0.0315 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4 11  2  0
+  4  5  1  0
+  5  6  2  0
+  5 12  1  0
+  6  7  1  0
+  6 13  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+  9 11  1  0
+M  END
+> <Name>
+ZINC000039128256
+
+> <ADMET_Solubility>
+-1.526
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.842
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-7.60931186296807
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+Unknown FCFP_2 feature: -1374812327: [*]:n:[c](Cl):[c](:[*]):[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+15.6861888511827
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+3.3783450902e-007
+
+> <ADMET_EXT_Hepatotoxic>
+-2.63958127646162
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+OPS PC22 out of range. Value: -3.2656. Training min, max, SD, explained variance: -3.145, 3.0977, 1.007, 0.0127.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+15.2955217918078
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.8092561108e-012
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-5.25436358474587
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+OPS PC39 out of range. Value: -3.6294. Training min, max, SD, explained variance: -3.0129, 2.8984, 0.924, 0.0070.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+17.9932834766912
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+8.9800382314e-016
+
+> <ADMET_AlogP98>
+1.369
+
+> <ADMET_PSA_2D>
+70.192
+
+$$$$
+ZINC000071475078
+  SciTegic09072510593D
+
+ 23 24  0  0  0  0            999 V2000
+   -0.0187    1.5258    0.0104 C   0  0
+    0.0021   -0.0041    0.0020 C   0  0
+   -1.4333   -0.5336    0.0129 C   0  0
+    0.7074   -0.4901   -1.2379 C   0  0
+    1.8435   -1.2774   -1.1401 C   0  0
+    2.3295   -1.6167    0.0769 O   0  0
+    2.4578   -1.7011   -2.2456 N   0  0
+    2.0035   -1.3844   -3.4478 C   0  0
+    2.4658   -1.7030   -4.7492 C   0  0
+    1.6381   -1.1283   -5.6427 C   0  0
+    0.6591   -0.4507   -4.9686 N   0  0
+    0.8839   -0.6083   -3.5952 N   0  0
+    0.2231   -0.1589   -2.5096 C   0  0
+   -0.7794    0.5266   -2.6328 O   0  0
+    1.0039    1.9031    0.0027 H   0  0
+   -0.5459    1.8868   -0.8726 H   0  0
+   -0.5289    1.8773    0.9072 H   0  0
+    0.5293   -0.3651    0.8851 H   0  0
+   -1.9605   -0.1726   -0.8702 H   0  0
+   -1.4185   -1.6235    0.0069 H   0  0
+   -1.9435   -0.1821    0.9097 H   0  0
+    3.3326   -2.3030   -4.9838 H   0  0
+    1.7320   -1.1919   -6.7168 H   0  0
+  1  2  1  0
+  1 15  1  0
+  1 16  1  0
+  1 17  1  0
+  2  3  1  0
+  2  4  1  0
+  2 18  1  0
+  3 19  1  0
+  3 20  1  0
+  3 21  1  0
+  4 13  1  0
+  4  5  2  0
+  5  6  1  0
+  5  7  1  0
+  7  8  2  0
+  8 12  1  0
+  8  9  1  0
+  9 10  2  0
+  9 22  1  0
+ 10 11  1  0
+ 10 23  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+M  END
+> <Name>
+ZINC000071475078
+
+> <ADMET_Solubility>
+-1.559
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+1
+
+> <ADMET_BBB>
+-0.95
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-7.57868641907867
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1305894501: [*]C(=C(O)N=[*])[*]
+Unknown FCFP_2 feature: -1553784664: [*]C(=[*])N1N[*]=[*]C1=[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.9759340783267
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+3.2234329683e-004
+
+> <ADMET_EXT_Hepatotoxic>
+-0.811255840606287
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1305894501: [*]C(=C(O)N=[*])[*]
+Unknown FCFP_2 feature: -1553784664: [*]C(=[*])N1N[*]=[*]C1=[*]
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.644597818959
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+1.8033934317e-002
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-6.78684076665202
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+12.188420165097
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+6.0925890357e-002
+
+> <ADMET_AlogP98>
+0.783
+
+> <ADMET_PSA_2D>
+65.602
+
+$$$$
+ZINC000095831395
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0144    1.2092    0.0087 C   0  0
+    1.2441    1.9588    0.0007 C   0  0
+    2.4696    1.2776   -0.0205 C   0  0
+    3.6491    1.9862   -0.0284 C   0  0
+    4.8291    1.3285   -0.0489 F   0  0
+    3.6312    3.3798   -0.0159 C   0  0
+    4.8000    4.0706   -0.0247 O   0  0
+    2.4239    4.0649    0.0051 C   0  0
+    2.4145    5.4158    0.0172 F   0  0
+    1.2288    3.3645    0.0084 C   0  0
+    0.0478    4.0327    0.0285 O   0  0
+   -0.9569    1.7364    0.0160 H   0  0
+    2.4877    0.1978   -0.0303 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2 13  1  0
+  3 11  2  0
+  3  4  1  0
+  4  5  2  0
+  4 14  1  0
+  5  6  1  0
+  5  7  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  1  0
+M  END
+> <Name>
+ZINC000095831395
+
+> <ADMET_Solubility>
+-1.769
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.618
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.35316965502727
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.4251506919584
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.1525270097e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-2.56298790500009
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+8.69320070140326
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.612591825769134
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-4.23583243749765
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.2906219881901
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.819017227055027
+
+> <ADMET_AlogP98>
+1.516
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000196158025
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0144    1.2092    0.0087 C   0  0
+    1.2442    1.9588    0.0007 C   0  0
+    2.4691    1.2782   -0.0204 C   0  0
+    3.6404    1.9784   -0.0278 C   0  0
+    3.6296    3.3704   -0.0144 C   0  0
+    4.8013    4.0548   -0.0224 O   0  0
+    2.4258    4.0620    0.0066 C   0  0
+    2.4209    5.7979    0.0231 Cl  0  0
+    1.2291    3.3654    0.0084 C   0  0
+    0.0498    4.0350    0.0289 O   0  0
+   -0.9569    1.7364    0.0160 H   0  0
+    2.4860    0.1984   -0.0306 H   0  0
+    4.5818    1.4492   -0.0438 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2 12  1  0
+  3 10  2  0
+  3  4  1  0
+  4  5  2  0
+  4 13  1  0
+  5  6  1  0
+  5 14  1  0
+  6  7  1  0
+  6  8  2  0
+  8  9  1  0
+  8 10  1  0
+ 10 11  1  0
+M  END
+> <Name>
+ZINC000196158025
+
+> <ADMET_Solubility>
+-1.676
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.54
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-4.32111023171063
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.87260641696323
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.140177096991554
+
+> <ADMET_EXT_Hepatotoxic>
+-2.65502318688226
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.528287714951
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+2.488433576e-002
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.60275362908133
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+12.0506939751304
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+8.4449254496e-002
+
+> <ADMET_AlogP98>
+1.769
+
+> <ADMET_PSA_2D>
+58.931
+
+$$$$
+ZINC000002310128
+  SciTegic09072510593D
+
+ 25 24  0  0  0  0            999 V2000
+   -0.0187    1.5258    0.0104 C   0  0
+    0.0021   -0.0041    0.0020 C   0  0
+   -1.4333   -0.5336    0.0129 C   0  0
+   -1.4126   -2.0635    0.0045 C   0  0
+   -3.1228   -2.6945    0.0174 P   0  0
+   -3.9065   -2.0825   -1.1651 O   0  0
+   -3.8064   -2.3023    1.3463 O   0  0
+   -3.1018   -4.5103   -0.1424 C   0  0
+   -4.5367   -5.0289   -0.2568 C   0  0
+   -4.5193   -6.5300   -0.3889 C   0  0
+   -3.4577   -7.1295   -0.3912 O   0  0
+   -5.5669   -7.1449   -0.4934 O   0  0
+    1.0039    1.9031    0.0027 H   0  0
+   -0.5459    1.8868   -0.8726 H   0  0
+   -0.5289    1.8773    0.9072 H   0  0
+    0.5123   -0.3556   -0.8948 H   0  0
+    0.5293   -0.3651    0.8851 H   0  0
+   -1.9435   -0.1821    0.9097 H   0  0
+   -1.9605   -0.1726   -0.8702 H   0  0
+   -0.9024   -2.4150   -0.8923 H   0  0
+   -0.8854   -2.4246    0.8875 H   0  0
+   -2.5421   -4.7901   -1.0348 H   0  0
+   -2.6267   -4.9469    0.7362 H   0  0
+   -5.0964   -4.7491    0.6356 H   0  0
+   -5.0118   -4.5923   -1.1354 H   0  0
+  1  2  1  0
+  1 13  1  0
+  1 14  1  0
+  1 15  1  0
+  2  3  1  0
+  2 16  1  0
+  2 17  1  0
+  3  4  1  0
+  3 18  1  0
+  3 19  1  0
+  4  5  1  0
+  4 20  1  0
+  4 21  1  0
+  5  6  1  0
+  5  7  1  0
+  5  8  1  0
+  8  9  1  0
+  8 22  1  0
+  8 23  1  0
+  9 10  1  0
+  9 24  1  0
+  9 25  1  0
+ 10 11  2  0
+ 10 12  1  0
+M  END
+> <Name>
+ZINC000002310128
+
+> <ADMET_Solubility>
+0.163
+
+> <ADMET_Solubility_Level>
+5
+
+> <ADMET_Unknown_AlogP98>
+1
+
+> <ADMET_BBB>
+-1.185
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-6.62247244734715
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 518307157: [*]CP(O)(O)C[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+8.6820626373727
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.514235645291173
+
+> <ADMET_EXT_Hepatotoxic>
+-4.00799933315565
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+7.25807803631538
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.987541057042172
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-4.72936092428287
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 518307157: [*]CP(O)(O)C[*]
+
+> <ADMET_EXT_PPB_Applicability#MD>
+8.93956335136262
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.997511355937471
+
+> <ADMET_AlogP98>
+0.747
+
+> <ADMET_PSA_2D>
+79.747
+
+$$$$
+ZINC000001671967
+  SciTegic09072510593D
+
+ 22 22  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0145    1.2150    0.0087 C   0  0
+    1.0330    1.8389    0.0021 O   0  0
+   -1.3296    1.9507    0.0190 C   0  0
+   -2.4790    0.9408    0.0189 C   0  0
+   -3.7941    1.6764    0.0292 C   0  0
+   -3.8106    2.8893    0.0358 O   0  0
+   -5.0559    0.9249    0.0311 C   0  0
+   -5.0396   -0.4753    0.0292 C   0  0
+   -6.2205   -1.1723    0.0309 C   0  0
+   -7.4329   -0.4909    0.0341 C   0  0
+   -8.5985   -1.1851    0.0353 O   0  0
+   -7.4546    0.8998    0.0364 C   0  0
+   -6.2794    1.6062    0.0406 C   0  0
+   -1.3917    2.5717    0.9126 H   0  0
+   -1.4001    2.5813   -0.8673 H   0  0
+   -2.4169    0.3198   -0.8748 H   0  0
+   -2.4085    0.3101    0.9052 H   0  0
+   -4.0987   -1.0054    0.0260 H   0  0
+   -6.2091   -2.2522    0.0294 H   0  0
+   -8.3988    1.4242    0.0393 H   0  0
+   -6.2973    2.6860    0.0424 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  4 15  1  0
+  4 16  1  0
+  5  6  1  0
+  5 17  1  0
+  5 18  1  0
+  6  7  2  0
+  6  8  1  0
+  8 14  2  0
+  8  9  1  0
+  9 10  2  0
+  9 19  1  0
+ 10 11  1  0
+ 10 20  1  0
+ 11 12  1  0
+ 11 13  2  0
+ 13 14  1  0
+ 13 21  1  0
+ 14 22  1  0
+M  END
+> <Name>
+ZINC000001671967
+
+> <ADMET_Solubility>
+-1.074
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.998
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-5.31793926264528
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+11.4953274247062
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+8.4658643644e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-1.13752646155971
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+7.909337742486
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.90829357996875
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-1.07500444511047
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+8.29764585965466
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.999915310056454
+
+> <ADMET_AlogP98>
+1.173
+
+> <ADMET_PSA_2D>
+76.232
+
+$$$$
+ZINC000141170010
+  SciTegic09072510593D
+
+ 26 26  0  0  0  0            999 V2000
+   -0.0187    1.5258    0.0104 C   0  0
+    0.0021   -0.0041    0.0020 C   0  0
+    0.7182   -0.4975   -1.2568 C   0  0
+    0.7386   -2.0043   -1.2651 C   0  0
+    0.2302   -2.6231   -0.3533 O   0  0
+    1.3716   -2.7213   -2.3724 C   0  0
+    1.3791   -4.1199   -2.3715 C   0  0
+    0.8600   -4.7270   -1.4490 O   0  0
+    2.0221   -4.8834   -3.4997 C   0  0
+    3.1679   -4.0540   -4.0855 C   0  0
+    2.6165   -2.7095   -4.5676 C   0  0
+    1.9542   -1.9970   -3.4174 C   0  0
+    1.9333   -0.7771   -3.3931 O   0  0
+    1.0039    1.9031    0.0027 H   0  0
+   -0.5459    1.8868   -0.8726 H   0  0
+   -0.5289    1.8773    0.9072 H   0  0
+    0.5293   -0.3651    0.8851 H   0  0
+   -1.0205   -0.3814    0.0098 H   0  0
+    0.1910   -0.1364   -2.1398 H   0  0
+    1.7408   -0.1202   -1.2645 H   0  0
+    2.4129   -5.8286   -3.1230 H   0  0
+    1.2813   -5.0790   -4.2751 H   0  0
+    3.9239   -3.8841   -3.3189 H   0  0
+    3.6122   -4.5880   -4.9254 H   0  0
+    3.4327   -2.0995   -4.9547 H   0  0
+    1.8830   -2.8788   -5.3558 H   0  0
+  1  2  1  0
+  1 14  1  0
+  1 15  1  0
+  1 16  1  0
+  2  3  1  0
+  2 17  1  0
+  2 18  1  0
+  3  4  1  0
+  3 19  1  0
+  3 20  1  0
+  4  5  2  0
+  4  6  1  0
+  6 12  1  0
+  6  7  2  0
+  7  8  1  0
+  7  9  1  0
+  9 10  1  0
+  9 21  1  0
+  9 22  1  0
+ 10 11  1  0
+ 10 23  1  0
+ 10 24  1  0
+ 11 12  1  0
+ 11 25  1  0
+ 11 26  1  0
+ 12 13  2  0
+M  END
+> <Name>
+ZINC000141170010
+
+> <ADMET_Solubility>
+-1.61
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.588
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-4.44737269663766
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+7.1779327878219
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.95386389112806
+
+> <ADMET_EXT_Hepatotoxic>
+-2.84182127494184
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+6.71413016486962
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.99881568429303
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-4.52833991261292
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+7.19302854507359
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.99999998005672
+
+> <ADMET_AlogP98>
+1.432
+
+> <ADMET_PSA_2D>
+55.417
+
+$$$$
+ZINC000141166899
+  SciTegic09072510593D
+
+ 29 29  0  0  0  0            999 V2000
+    0.3393    1.5072    0.1441 C   0  0
+    0.3798   -0.0222    0.1557 C   0  0
+    1.4325   -0.4969    1.1595 C   0  0
+   -0.9921   -0.5657    0.5600 C   0  0
+    0.7342   -0.5258   -1.2198 C   0  0
+    0.9556    0.2620   -2.1159 O   0  0
+    0.8115   -1.9645   -1.4747 C   0  0
+   -0.3419   -2.6588   -1.8542 C   0  0
+   -1.3988   -2.0596   -1.9676 O   0  0
+   -0.2905   -4.1398   -2.1246 C   0  0
+    0.8083   -4.7742   -1.2677 C   0  0
+    2.1457   -4.1034   -1.5924 C   0  0
+    2.0386   -2.6221   -1.3405 C   0  0
+    3.0293   -1.9919   -1.0082 O   0  0
+    1.3167    1.8944   -0.1439 H   0  0
+   -0.4106    1.8454   -0.5710 H   0  0
+    0.0830    1.8714    1.1390 H   0  0
+    1.2268   -0.0588    2.1361 H   0  0
+    1.3989   -1.5838    1.2345 H   0  0
+    2.4216   -0.1863    0.8229 H   0  0
+   -1.7327   -0.2723   -0.1840 H   0  0
+   -0.9487   -1.6531    0.6203 H   0  0
+   -1.2722   -0.1587    1.5316 H   0  0
+   -1.2517   -4.5888   -1.8742 H   0  0
+   -0.0731   -4.3097   -3.1791 H   0  0
+    0.5757   -4.6316   -0.2125 H   0  0
+    0.8722   -5.8399   -1.4874 H   0  0
+    2.9274   -4.5262   -0.9614 H   0  0
+    2.3926   -4.2728   -2.6405 H   0  0
+  1  2  1  0
+  1 15  1  0
+  1 16  1  0
+  1 17  1  0
+  2  3  1  0
+  2  4  1  0
+  2  5  1  0
+  3 18  1  0
+  3 19  1  0
+  3 20  1  0
+  4 21  1  0
+  4 22  1  0
+  4 23  1  0
+  5  6  2  0
+  5  7  1  0
+  7 13  1  0
+  7  8  2  0
+  8  9  1  0
+  8 10  1  0
+ 10 11  1  0
+ 10 24  1  0
+ 10 25  1  0
+ 11 12  1  0
+ 11 26  1  0
+ 11 27  1  0
+ 12 13  1  0
+ 12 28  1  0
+ 12 29  1  0
+ 13 14  2  0
+M  END
+> <Name>
+ZINC000141166899
+
+> <ADMET_Solubility>
+-2.275
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.458
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-3.70584782684682
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+7.22003633185611
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.948783412219869
+
+> <ADMET_EXT_Hepatotoxic>
+-1.96634829134846
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+6.88944805519144
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.997274222418678
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-3.96241245371426
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+7.27648080020746
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.999999957479861
+
+> <ADMET_AlogP98>
+1.855
+
+> <ADMET_PSA_2D>
+55.417
+
+$$$$
+ZINC000002279015
+  SciTegic09072510593D
+
+ 18 18  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0189    1.5408    0.0105 P   0  0
+    1.3133    2.0323    0.0004 H   0  0
+   -0.7420    2.0390    1.2817 O   0  0
+   -0.9006    2.1447   -1.4664 C   0  0
+   -0.1844    1.6512   -2.7252 C   0  0
+   -0.9133    2.1505   -3.9461 C   0  0
+   -0.6724    3.3080   -4.5876 C   0  0
+   -1.5806    3.3736   -5.6692 C   0  0
+   -2.3222    2.2522   -5.6239 C   0  0
+   -1.9097    1.5124   -4.5816 O   0  0
+   -1.9232    1.7674   -1.4586 H   0  0
+   -0.9154    3.2345   -1.4604 H   0  0
+    0.8382    2.0285   -2.7329 H   0  0
+   -0.1697    0.5614   -2.7312 H   0  0
+    0.0716    4.0459   -4.3263 H   0  0
+   -1.6633    4.1711   -6.3927 H   0  0
+   -3.1125    1.9895   -6.3114 H   0  0
+  1  2  1  0
+  2  3  1  6
+  2  4  1  0
+  2  5  1  0
+  5  6  1  0
+  5 12  1  0
+  5 13  1  0
+  6  7  1  0
+  6 14  1  0
+  6 15  1  0
+  7 11  1  0
+  7  8  2  0
+  8  9  1  0
+  8 16  1  0
+  9 10  2  0
+  9 17  1  0
+ 10 11  1  0
+ 10 18  1  0
+M  END
+> <Name>
+ZINC000002279015
+
+> <ADMET_Solubility>
+-4.9e-002
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+1
+
+> <ADMET_BBB>
+-0.858
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-9.51897049006931
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -109786778: [*]CP(O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+11.5572862031407
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+7.4662280754e-003
+
+> <ADMET_EXT_Hepatotoxic>
+-0.275904805105742
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -109786778: [*]CP(O)O
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.5892801753612
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+2.1054433916e-002
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-5.39408952520006
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.0854899441064
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.883186084139155
+
+> <ADMET_AlogP98>
+0.496
+
+> <ADMET_PSA_2D>
+54.185
+
+$$$$
+ZINC000002242717
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+    0.0021   -0.0041    0.0020 O   0  0
+   -0.0144    1.2088    0.0087 C   0  0
+    1.2468    1.9600    0.0007 C   0  0
+    2.4712    1.2810   -0.0205 C   0  0
+    3.6505    1.9916   -0.0284 C   0  0
+    3.6334    3.3773   -0.0150 C   0  0
+    2.4330    4.0626    0.0060 C   0  0
+    2.4273    5.4136    0.0184 F   0  0
+    1.2329    3.3639    0.0084 C   0  0
+    0.0536    4.0341    0.0289 O   0  0
+   -0.9569    1.7360    0.0160 H   0  0
+    2.4905    0.2012   -0.0303 H   0  0
+    4.5940    1.4662   -0.0448 H   0  0
+    4.5640    3.9254   -0.0206 H   0  0
+  1  2  2  0
+  2  3  1  0
+  2 11  1  0
+  3  9  2  0
+  3  4  1  0
+  4  5  2  0
+  4 12  1  0
+  5  6  1  0
+  5 13  1  0
+  6  7  2  0
+  6 14  1  0
+  7  8  1  0
+  7  9  1  0
+  9 10  1  0
+M  END
+> <Name>
+ZINC000002242717
+
+> <ADMET_Solubility>
+-1.681
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.277
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-3.68817240806583
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+13.9562176418144
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+2.9459932021e-005
+
+> <ADMET_EXT_Hepatotoxic>
+-2.74691292101816
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+9.70970662512897
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+0.160942677682
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-0.32874901996661
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+11.281577525546
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.344804649659575
+
+> <ADMET_AlogP98>
+1.552
+
+> <ADMET_PSA_2D>
+38.116
+
+$$$$
+ZINC000019844543
+  SciTegic09072510593D
+
+ 24 24  0  0  0  0            999 V2000
+   -0.0187    1.5258    0.0104 C   0  0
+    0.0021   -0.0041    0.0020 C   0  0
+    0.7421   -0.5109    1.2415 C   0  0
+    0.7619   -1.9757    1.2335 N   0  0
+    1.3833   -2.6682    2.2666 C   0  0
+    1.9787   -1.9627    3.3071 C   0  0
+    2.5981   -2.6735    4.3373 C   0  0
+    3.2444   -1.9676    5.4654 C   0  0
+    3.2409   -0.7458    5.5044 O   0  0
+    3.7819   -2.6061    6.3585 O   0  0
+    2.5906   -4.0727    4.2739 C   0  0
+    1.9769   -4.6942    3.2054 C   0  0
+    1.3970   -3.9913    2.2522 N   0  0
+    1.0039    1.9031    0.0027 H   0  0
+   -0.5459    1.8868   -0.8726 H   0  0
+   -0.5289    1.8773    0.9072 H   0  0
+   -1.0205   -0.3814    0.0098 H   0  0
+    0.5123   -0.3556   -0.8948 H   0  0
+    1.7647   -0.1336    1.2338 H   0  0
+    0.2319   -0.1594    2.1383 H   0  0
+    0.3416   -2.4625    0.5073 H   0  0
+    1.9625   -0.8829    3.3179 H   0  0
+    3.0595   -4.6578    5.0513 H   0  0
+    1.9683   -5.7728    3.1509 H   0  0
+  1  2  1  0
+  1 14  1  0
+  1 15  1  0
+  1 16  1  0
+  2  3  1  0
+  2 17  1  0
+  2 18  1  0
+  3  4  1  0
+  3 19  1  0
+  3 20  1  0
+  4  5  1  0
+  4 21  1  0
+  5 13  2  0
+  5  6  1  0
+  6  7  2  0
+  6 22  1  0
+  7  8  1  0
+  7 11  1  0
+  8  9  2  0
+  8 10  1  0
+ 11 12  2  0
+ 11 23  1  0
+ 12 13  1  0
+ 12 24  1  0
+M  END
+> <Name>
+ZINC000019844543
+
+> <ADMET_Solubility>
+-1.605
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.665
+
+> <ADMET_BBB_Level>
+3
+
+> <ADMET_EXT_CYP2D6>
+-6.90857922133554
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1549222613: [*]:[c](:[*])C(=O)O
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+10.863231006127
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+2.844454532e-002
+
+> <ADMET_EXT_Hepatotoxic>
+-2.42858026154429
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+10.9061568461818
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+8.3175672038e-003
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-3.50966099859847
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+12.4834003195695
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+2.8037686778e-002
+
+> <ADMET_AlogP98>
+1.529
+
+> <ADMET_PSA_2D>
+62.187
+
+$$$$
+ZINC000002526741
+  SciTegic09072510593D
+
+ 14 14  0  0  0  0            999 V2000
+   -0.0184    1.5028    0.0103 C   0  0
+    0.0021   -0.0041    0.0020 C   0  0
+    0.0061   -0.7073   -1.1923 C   0  0
+    0.0250   -2.0888   -1.1623 C   0  0
+    0.0391   -2.7413   -0.0163 N   0  0
+    0.0359   -2.1102    1.1421 C   0  0
+    0.0556   -3.0234    2.6184 Cl  0  0
+    0.0231   -0.7225    1.1924 C   0  0
+    0.0199   -0.0759    2.3881 O   0  0
+    1.0042    1.8801    0.0026 H   0  0
+   -0.5455    1.8639   -0.8728 H   0  0
+   -0.5286    1.8543    0.9071 H   0  0
+   -0.0057   -0.1816   -2.1356 H   0  0
+    0.0278   -2.6417   -2.0901 H   0  0
+  1  2  1  0
+  1 10  1  0
+  1 11  1  0
+  1 12  1  0
+  2  8  2  0
+  2  3  1  0
+  3  4  2  0
+  3 13  1  0
+  4  5  1  0
+  4 14  1  0
+  5  6  2  0
+  6  7  1  0
+  6  8  1  0
+  8  9  1  0
+M  END
+> <Name>
+ZINC000002526741
+
+> <ADMET_Solubility>
+-1.905
+
+> <ADMET_Solubility_Level>
+4
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.106
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-4.33368018574849
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1374812327: [*]:n:[c](Cl):[c](:[*]):[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+17.6652186608549
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+1.737241138e-009
+
+> <ADMET_EXT_Hepatotoxic>
+0.408291155072586
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0813198796699
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+3.153730696e-014
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.04468148256573
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+17.9608191529033
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+1.1623503252e-015
+
+> <ADMET_AlogP98>
+1.797
+
+> <ADMET_PSA_2D>
+32.076
+
+$$$$
+ZINC000002786193
+  SciTegic09072510593D
+
+ 19 20  0  0  0  0            999 V2000
+    2.4887    1.0448   -0.0151 C   0  0
+    1.1736    1.7804    0.0004 C   0  0
+   -0.0126    1.0758    0.0080 C   0  0
+   -1.2209    1.7498    0.0173 C   0  0
+   -1.2478    3.1327    0.0299 C   0  0
+   -0.0680    3.8487    0.0225 C   0  0
+    1.1530    3.1752    0.0076 C   0  0
+    2.4221    3.9372    0.0001 C   0  0
+    3.6565    3.4317   -0.0077 N   0  0
+    4.4809    4.4229   -0.0146 N   0  0
+    3.8185    5.5262   -0.0036 N   0  0
+    2.5562    5.2644    0.0056 N   0  0
+    2.7964    0.8723   -1.0464 H   0  0
+    3.2450    1.6417    0.4947 H   0  0
+    2.3760    0.0883    0.4953 H   0  0
+    0.0021   -0.0041    0.0020 H   0  0
+   -2.1468    1.1939    0.0191 H   0  0
+   -2.1940    3.6532    0.0417 H   0  0
+   -0.0903    4.9285    0.0277 H   0  0
+  1  2  1  0
+  1 13  1  0
+  1 14  1  0
+  1 15  1  0
+  2  7  2  0
+  2  3  1  0
+  3  4  2  0
+  3 16  1  0
+  4  5  1  0
+  4 17  1  0
+  5  6  2  0
+  5 18  1  0
+  6  7  1  0
+  6 19  1  0
+  7  8  1  0
+  8 12  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+M  END
+> <Name>
+ZINC000002786193
+
+> <ADMET_Solubility>
+-2.578
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+-0.403
+
+> <ADMET_BBB_Level>
+2
+
+> <ADMET_EXT_CYP2D6>
+-6.28886476558412
+
+> <ADMET_EXT_CYP2D6#Prediction>
+false
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 4456840: [*]1:[*]:n:n:[nH]:1
+Unknown FCFP_2 feature: 262592487: [*][c]1:[*]:[*]:n:[nH]:1
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+17.098351644997
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+7.9022148751e-009
+
+> <ADMET_EXT_Hepatotoxic>
+-3.83644768446284
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+true
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+13.5017060505693
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+1.441642933e-007
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+3.95180622064266
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: 690540968: [*]:[c](:[*])[c]1:[nH]:[*]:[*]:n:1
+
+> <ADMET_EXT_PPB_Applicability#MD>
+8.91495986177353
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.997774886129093
+
+> <ADMET_AlogP98>
+1.694
+
+> <ADMET_PSA_2D>
+48.838
+
+$$$$
