@@ -1,0 +1,6 @@
+Classification_Target: drug_sensitive
+Regression_Target: IC50_Drug_X
+Number_of_Features: 18
+Number_of_Samples: 100
+Test_Size: 20
+Random_Seed: 42
